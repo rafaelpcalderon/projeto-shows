@@ -1,0 +1,85 @@
+img{
+    width: 240px;
+    height: 100px;
+}
+
+header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    justify-content: space-evenly;
+    background-color: rgba(7, 6, 83, 0.966);
+}
+
+nav{
+    display: flex;
+    align-items: center;
+    color: #fff;
+}
+
+nav li{
+    margin: 20px;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    min-height: 90vh;
+}
+
+.cadastro{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: #ffe4c4;
+    width: 500px;
+    height: 500px;
+    margin: auto;
+    border-radius: 10px;
+    border: none;
+}
+
+.cadastro h1{
+    margin-right: 65px;
+}
+input[type="text"],
+input[type="email"],
+input[type="password"] {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: none;
+    border-bottom: 1px solid #ccc;
+    background: none;
+}
+
+input[type="submit"] {
+    background: #007bff;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+form {
+    max-width: 300px;
+    margin: 0 auto;
+}
+
+label {
+    display: block;
+    font-weight: bold;
+}
+
+.accept{
+    display: flex;
+    flex-wrap: wrap;
+    width: 300px;
+    justify-content: center;
+    margin: 30px;
+}
+
+

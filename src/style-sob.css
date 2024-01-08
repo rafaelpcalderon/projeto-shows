@@ -1,0 +1,35 @@
+body{
+    background-image: url(/src/happy-people-watching-amazing-music-show-air-balloons-flying-in-concert-hall_bvrqasbjfg_thumbnail-full01.png);
+    background-repeat: no-repeat;
+    background-size: 1920px 1080px;
+}
+
+
+.sonho{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: left;
+    margin: 50px;
+    width: 900px;
+    color: rgb(2, 0, 0);
+    align-items: center;
+    font-size: small;
+}
+
+.sonho p{
+    width: 650px;
+    font-size: 30px;
+    color: rgb(91, 56, 245);
+    font-weight: bolder;
+}
+
+.sonho h1{
+    width: 550px;
+    font-size: 45px;
+}
+
+span{
+    color: rgb(91, 56, 245);
+    font-weight: 900;
+}

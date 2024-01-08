@@ -1,0 +1,25 @@
+img{
+    width: 240px;
+    height: 100px;
+    margin-right: 390px;
+    
+}
+
+header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    justify-content: space-evenly;
+    background-color: rgba(7, 6, 83, 0.966);
+}
+
+nav{
+    display: flex;
+    align-items: center;
+    color: #fff;
+}
+
+nav li{
+    margin: 20px;
+}

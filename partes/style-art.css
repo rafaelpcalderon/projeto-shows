@@ -1,0 +1,103 @@
+body{
+    overflow: hidden;
+}
+
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 90vh;
+    background-color: #e6e5bb;
+}
+
+.artistas{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 1000px;
+}
+
+.harry{
+    width: 240px;
+    height: 350px;
+    border-radius: 10px;
+    margin: 20px;
+    background-color: rgba(37, 14, 245, 0.836);
+}
+
+.taylor{
+    width: 240px;
+    height: 350px;
+    border-radius: 10px;
+    margin: 20px;
+    background-color: rgba(37, 14, 245, 0.836);
+}
+
+.jao{
+    width: 240px;
+    height: 350px;
+    border-radius: 10px;
+    margin: 20px;
+    background-color: rgba(37, 14, 245, 0.836);
+}
+
+.louis{
+    width: 240px;
+    height: 350px;
+    border-radius: 10px;
+    margin: 20px;
+    background-color: rgba(37, 14, 245, 0.836);
+}
+
+.weeknd{
+    width: 240px;
+    height: 350px;
+    border-radius: 10px;
+    margin: 20px;
+    background-color: rgba(37, 14, 245, 0.836);
+}
+
+.fsos{
+    width: 240px;
+    height: 350px;
+    border-radius: 10px;
+    margin: 20px;
+    background-color: rgba(37, 14, 245, 0.836);
+}
+
+.artistas img{
+    border-radius: 10px 10px 0 0;
+    height: 150px;
+}
+
+p{
+    color: white;
+    text-align: center;
+    height: 70px;
+    font-size: 20px;
+}
+
+button{
+    margin-left: 35px;
+    display: inline-block;
+      padding: 10px 20px;
+      font-size: 16px;
+      text-align: center;
+      text-decoration: none;
+      cursor: pointer;
+      border: 2px solid #4caf6a; 
+      border-radius: 10px; 
+      color: #0cb14b;
+      background-color: white;
+      transition: background-color 0.3s, color 0.3s, border-color 0.3s; 
+}
+
+button:visited{
+    color: red;
+}
+
+
+
+
+
